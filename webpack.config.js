@@ -1,8 +1,9 @@
+const { truncate } = require('fs');
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-modoule.export = {
+module.exports = {
     entry : "./src/index.js",
     mode : "development",
     module : {
@@ -21,7 +22,7 @@ modoule.export = {
     },
     resolve : {extensions : ["*", ".js", ".jsx"]},
     output : {
-        path : path.resolve(__dirname, "/build"),
+        path : path.resolve(__dirname, "build/"),
         filename : "bundle.js"
     },
     devServer : {
