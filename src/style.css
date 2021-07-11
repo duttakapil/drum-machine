@@ -1,0 +1,30 @@
+#app {
+/*   background-color : red; */
+  height : 97vh;
+  min-width : 5%;
+  display: flex;
+  justify-content : center;
+  align-items : center;
+}
+
+#drum-machine {
+/*   background-color : blue; */
+  display: flex;
+  justify-content : space-around;
+  align-items : center;
+  flex-wrap: wrap;
+  height: 25em;
+  width : 30em;
+  padding : 10px;
+}
+
+.drum-pad {
+  background-color: lightgrey;
+  height : 6em;
+  width : 30%; 
+  display: flex;
+  justify-content : center;
+  align-items: center;
+  border: 1px solid black;
+  font-size: 20px;
+}
